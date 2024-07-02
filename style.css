@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #fff6f6;
+    color: #fff;
+}
+
+.content {
+    padding-top: 60px; /* Height of the navbar */
+}
+
+section {
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#home {
+    background-color: rgb(64, 75, 85);
+}
+
+#about {
+    background-color: rgb(36, 46, 49);
+}
+
+#services {
+    background-color: rgb(155, 143, 199);
+}
+
+#contact {
+    background-color: rgb(213, 248, 206);
+}
